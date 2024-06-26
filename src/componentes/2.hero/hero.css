@@ -1,0 +1,116 @@
+.hero{
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero .right img{
+    height: 49vw;
+
+}
+.hero .left{
+    margin-left: 10rem ;
+    width: 40%;
+    padding: 0 10rem 0 0 ;
+}
+.hero .left .header {
+    padding: 0;
+    font-size: 2.5rem;
+}
+.hero .left .contant {
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--subtitle);
+}
+.buttons{
+    height: 90px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+.button1{
+    height: 35px;
+    margin:0 1rem 0 0 ;
+    padding: 7px 10px 10px 10px ;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+
+}
+.button1 a{
+    font-weight: bold;
+}
+.button2{
+    cursor: pointer;
+    height: 35px;
+    margin:0 1rem 0 0 ;
+    padding: 7px 10px 10px 10px ;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: black;
+
+}
+
+@media (width < 1200px) {
+    .hero .right img{
+        display: none;
+    
+    }
+    .hero .left{
+        margin:  10rem ;
+        width: 60%;
+        padding: 0 10rem 0 0 ;
+    }
+    .button1,.button2{
+        font-size: 10px;
+        width: 150px;
+        text-align: center;
+    }
+    .buttons{
+        width: 30vw;
+    }
+
+  }
+
+  @media (width < 600px) {
+    .hero .right img{
+        display: none;
+    
+    }
+    .hero .left{
+        margin:  5rem ;
+        width: 60%;
+        padding: 0 10rem 0 0 ;
+    }
+    
+    .hero .left .header {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .hero .left h1.header {
+        width: 150px;
+    }
+    .hero .left p{
+        width: 200px;
+    }
+    .buttons{
+        width: 50vw;
+    }
+    .button1,.button2{
+        font-size: 10px;
+        width: 10rem;
+    }
+    .button1 a{
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+  }
+

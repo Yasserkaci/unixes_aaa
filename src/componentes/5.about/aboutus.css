@@ -1,0 +1,30 @@
+
+.contaner1{
+    text-align: center;
+}
+
+.hea{
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        width: 50vw;
+        margin-bottom: 3.5rem;
+    
+}
+
+.contaner1 p{
+    width: 60vw;
+    margin:4rem auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (width < 600px) {
+    .contaner1 p{
+        width: 90vw;
+        margin: 5vw;
+        font-size: 15px;
+        margin-bottom: 5rem;
+    }
+
+}

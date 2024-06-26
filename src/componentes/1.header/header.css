@@ -1,0 +1,131 @@
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+.logo img {
+    width: 150px;
+}
+
+.nav-bar li{
+    margin: 2rem;
+    padding-bottom:5px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-bar li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: solid 2px #000;
+    transition: 500ms;
+}
+.line{
+    color: var(--border);
+    width: calc(100vw - 27rem);
+    height: 1px;
+    border-bottom: 2px solid var(--subtitle);
+    margin: auto;
+}
+
+/* ========================
+    3- Modal == pop up
+=========================== */
+header .fixed {
+    position: fixed;
+    inset: 0;
+    z-index: 11;
+    background-color: rgba(40, 40, 48, 0.91);
+  
+    /* filter: blur(8px); */
+    backdrop-filter: blur(4px);
+  }
+  
+  @keyframes mymove {
+    0% {
+      scale: 0;
+    }
+  
+    60% {
+      scale: 1.2;
+    }
+  
+    100% {
+      scale: 1;
+    }
+  }
+  
+  header .fixed ul.modal {
+    animation: mymove 0.77s 1;
+    width: 75%;
+  margin-inline: auto;
+  
+  
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+  }
+  
+  header .fixed ul.modal li {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.77rem;
+    padding-top: 0.5rem;
+  }
+  
+  header .fixed ul.modal li:first-child {
+    text-align: right;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0.2rem;
+    margin-bottom: -1rem;
+  }
+  
+  header .fixed ul.modal li:last-child {
+    border: none;
+  }
+  
+  header .fixed ul.modal li a {
+    font-size: 1rem;
+  }
+  .menu{
+    display: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .icon-close{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* =====================================
+    4- Responsive Design (media query)
+  ======================================== */
+  @media (width < 1200px) {
+    header .nav {
+      display: none;
+    }
+  
+    header .menu {
+      display: block;
+    }
+  }
+  
+  @media (width < 600px) {
+    .header{
+        padding: 2rem 5rem;
+    }
+    div.line{
+        width: 50vw;
+    }
+  }
+
+  @media (width < 600px) {
+    .header img{
+        width: 100px;
+    }
+    div.line{
+        display: none;
+    }
+  }

@@ -1,0 +1,29 @@
+.img{
+    width: 70vw;
+    margin:0 15vw ;
+  }
+
+.head{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    width: 50vw;
+    margin-bottom: 3.5rem;
+}
+.head span{
+    color: var(--blue);
+}
+
+
+@media (width < 600px) {
+    .head{
+        font-size: 1.3rem;
+        width: 80vw;
+    }
+    img.img{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 2rem;
+    }
+    
+}
