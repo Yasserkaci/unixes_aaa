@@ -8,8 +8,8 @@ const Privacy = () => {
         <h1>Privacy policy</h1>
         <p>Last Updated JUly 23rd, 2024</p>
       </header>
-      <div className="container">
-        <div className="left">
+      <div className="containerga">
+        <div className="leftga">
           <h1>Privacy Policy</h1>
           <section>
             <h4>1. Introduction</h4>
@@ -92,11 +92,11 @@ const Privacy = () => {
             <p>Email: Contact.unixes@gmail.com</p>
           </section>
         </div>
-        <div className="right">
-          <div className="header">
+        <div className="rightga">
+          <div className="headerga">
             <h1> Table of contant</h1>
           </div>
-          <div className="contant">
+          <div className="contantga">
             <h5>1.Introduction</h5>
             <h5>2.Information We Collect</h5>
             <h5>3.Information We Collect</h5>

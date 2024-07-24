@@ -6,44 +6,44 @@ header h1{
     font-size: 50px;
 }
 
-.container{
+.containerga{
     display: flex;
     flex-direction: row;
 }
-.left{
+.leftga{
     height: 150vh;
     width: 75%;
     padding: 20px 150px;
 }
-.right{
+.rightga{
     height: 75vh;
     width: 25%;
     padding: o;
     border-left: solid 3px black;
 }
-.right .header{
+.rightga .headerga{
     padding: 0%;
     padding: 20px 0 0 0  ;
     text-align: center;
 }
-.right .header h1{
+.rightga .headerga h1{
     font-size: 20px;
 }
-.right .contant{
+.rightga .contantga{
     padding: 10px;
 }
-.right .contant h5{
+.rightga .contantga h5{
     padding: 10px;
     font-size: 15px;
 }
 
-.left section{
+.leftga section{
     padding-top: 10px;
 }
-.left section p{
+.leftga section p{
     padding: 10px 0;
 }
-.left section .p2 {
+.leftga section .p2 {
     margin: 15px;
     font-size: 15px;
 }
