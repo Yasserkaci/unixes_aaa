@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    padding: 50px;
+}
+header h1{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 150vh;
+    width: 75%;
+    padding: 20px 150px;
+}
+.right{
+    height: 75vh;
+    width: 25%;
+    padding: o;
+    border-left: solid 3px black;
+}
+.right .header{
+    padding: 0%;
+    padding: 20px 0 0 0  ;
+    text-align: center;
+}
+.right .header h1{
+    font-size: 20px;
+}
+.right .contant{
+    padding: 10px;
+}
+.right .contant h5{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.left section{
+    padding-top: 10px;
+}
+.left section p{
+    padding: 10px 0;
+}
+.left section .p2 {
+    margin: 15px;
+    font-size: 15px;
+}
