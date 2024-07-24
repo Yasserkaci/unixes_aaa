@@ -47,3 +47,60 @@ header h1{
     margin: 15px;
     font-size: 15px;
 }
+
+@media (width < 1200px) {
+    .leftga {
+        padding: 15px;
+    }
+    .rightga{
+        height: 75vh;
+        width: 35%;
+        padding: o;
+        border-left: solid 3px black;
+    }
+    .rightga .headerga{
+        padding: 0%;
+        padding: 20px 0 0 0  ;
+        text-align: center;
+    }
+    .rightga .headerga h1{
+        font-size: 15px;
+    }
+    .rightga .contantga h5{
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media (width < 600px) {
+    header h1{
+        font-size: 30px;
+    }
+    header p{
+        font-size: 10px;
+    }
+    .leftga {
+        padding: 10px;
+    }
+    .rightga{
+        height: 75vh;
+        width: 40%;
+        padding: o;
+        border-left: solid 3px black;
+    }
+    .rightga .headerga{
+        padding: 0%;
+        padding: 20px 0 0 0  ;
+        text-align: center;
+    }
+    .rightga .headerga h1{
+        font-size: 15px;
+    }
+    .rightga .contantga h5{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .leftga   p{
+        font-size: 10px;
+    }
+}
