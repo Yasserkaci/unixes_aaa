@@ -1,6 +1,7 @@
 import React from 'react'
 import "./header.css"
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Header() {
   const [showModal, setshowModal] = useState(false);
@@ -13,10 +14,10 @@ function Header() {
       </div>
       <div className="nav">
         <ul className='nav-bar flex'>
-          <li><a href="#">Home</a></li>
-          <li><a href="#ser">Services</a></li>
-          <li><a  href="#abt">About us</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/#" >Home</a></li>
+          <li><a href="/#ser">Services</a></li>
+          <li><a  href="/#abt">About us</a></li>
+          <li><a href="/#contact">Contact</a></li>
         </ul>
       </div>
       <div className='menu' onClick={() => {
