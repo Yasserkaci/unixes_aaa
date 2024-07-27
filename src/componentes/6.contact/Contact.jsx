@@ -17,6 +17,7 @@ const Contact = () => {
         Contact us for more information and Get notified when we publish
         something new.
       </p>
+      <a className="nigga123" href="/privacy">Privacy Policy*</a>
 
       <div style={{ justifyContent: "space-between" }} className="flex">
         <form onSubmit={handleSubmit} className="">

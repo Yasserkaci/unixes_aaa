@@ -94,15 +94,35 @@ section.contact-us .submit:hover {
   padding: 4rem;
 }
 
+.nigga123{
+  color: #333;
+  margin-left:310px;
+  cursor: pointer;
+}
+
 @media (width<600px) {
   .animation{
     display: none;
   }
+  .nigga123{
+    color: darkblue;
+  cursor: pointer;
+  text-decoration: underline;
+    
+    margin-left:100px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
   .contan{
     margin: 0;
-    padding: 0;
-    width: 100vw;
+    padding: 0 20px;
     display: block;
+  }
+  form{
+    width: 345px;
+  }
+  p.sub-title{
+    width: 80vw;
   }
 
 }
